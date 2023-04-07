@@ -278,7 +278,7 @@
                 let randomNum = this.randomIntFromInterval(0, this.deck.length-1);
                 let card = this.deck[randomNum];
                 
-                // so we don't get the same card twice if we're calling this multiple times for the same hand
+                // so we don't get the same card twice if we're calling this Amultiple times for the same hand
                 delete this.deck[randomNum];
 
                 // is card reversed? zero (false) or 1 (true)
